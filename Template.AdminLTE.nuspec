@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Template.AdminLTE</id>
+		<version>1.0</version>
+		<authors>Almsaeed Studio</authors>
+		<owners>Valdis Zobēla</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+			A fully responsive admin template. Based on Bootstrap 3 framework.
+			Highly customizable and easy to use.
+			Fits many screen resolutions from small mobile devices to large desktops.
+		</description>
+	</metadata>
+	<files>
+		<!-- Template styles -->
+		<file src="src\less\*"
+			  exclude="src\less\login_and_register.less;src\less\lockscreen.less;src\less\invoice.less;src\less\iCheck.less;src\less\404_500_errors.less;src\less\pace.less;src\less\adminLTE.less"
+			  target="content\Content\AdminLTE" />
+		
+		<!-- Custom include root file -->
+		<file src="override\adminLTE.less" target="content\Content\AdminLTE" />
+
+		<!-- Template fonts -->
+		<file src="src\fonts\*" target="content\Content\fonts" />
+	</files>
+</package>
