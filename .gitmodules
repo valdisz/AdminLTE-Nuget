@@ -1,6 +1,0 @@
-[submodule "src"]
-	path = src
-	url = https://github.com/almasaeed2010/AdminLTE.git
-[submodule "tools/psake"]
-	path = tools/psake
-	url = https://github.com/psake/psake.git
