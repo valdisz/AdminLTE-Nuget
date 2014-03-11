@@ -40,7 +40,16 @@ task Push `
 
     assert ($packages.Count -gt 0) "There are no packages to push to NuGet feed"
 
-    $packages | %{ exec { .\NuGet push $_ -Source $nugetFeed -ApiKey $nugetApiKey } }
+    $packages | %{
+        exec {
+            if ($nugetApiKey -eq '') {
+                .\NuGet push $_ -Source $nugetFeed
+            }
+            else {
+                .\NuGet push $_ -Source $nugetFeed -ApiKey $nugetApiKey
+            }
+        }
+    }
 }
 
 task Update {

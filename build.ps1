@@ -1,7 +1,7 @@
 ﻿param (
     [string]$target,
-    [string]$apiKey,
-    [string]$nuget
+    [string]$nuget = $null,
+    [string]$apiKey = $null
 )
 
 Import-Module ./tools/psake/psake.psm1
