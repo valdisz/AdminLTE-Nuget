@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.JVectorMap</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            Plugin for Admin LTE template.
+
+            jVectorMap uses only native browser technologies like JavaScript, CSS, HTML, SVG or VML.
+            No Flash or any other proprietary browser plug-in is required. This allows jVectorMap to
+            work in all modern mobile browsers.
+        </description>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\plugins\jvectormap\*.js" target="content\Scripts\vendor\jvectormap" />
+    </files>
+</package>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.CkEditor</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            Plugin for Admin LTE template.
+
+            CKEditor is a ready-for-use HTML text editor designed to simplify web content creation.
+            It's a WYSIWYG editor that brings common word processor features directly to your web pages.
+            Enhance your website experience with our community maintained editor.
+        </description>
+        <summary>
+            Plugin for Admin LTE template.
+
+            CKEditor is a ready-for-use HTML text editor designed to simplify web content creation.
+        </summary>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\plugins\ckeditor\*.js" target="content\Scripts\vendor\ckeditor" />
+    </files>
+</package>

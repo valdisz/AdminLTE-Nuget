@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.IonSlider</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            Plugin for Admin LTE template.
+
+            Ion.RangeSlider — Nice, comfortable and easily customizable range slider with skins support.
+            Also support events and public methods, has flexible settings, can be completely altered with CSS.
+        </description>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\plugins\ionslider\*.js" target="content\Scripts\vendor\ionslider" />
+    </files>
+</package>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.Sparkline</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            Plugin for Admin LTE template.
+
+            This jQuery plugin generates sparklines (small inline charts) directly in the browser using data supplied either inline in the HTML, or via javascript.
+        </description>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\plugins\sparkline\*.js" target="content\Scripts\vendor\sparkline" />
+    </files>
+</package>

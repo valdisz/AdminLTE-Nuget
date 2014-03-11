@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.Full</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            AdminLTE template with all plugins.
+        </description>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.CkEditor" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.Flot" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.FullCalendar" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.iCheck" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.IonSlider" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.Knob" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.JVectorMap" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.Morris" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.Slider" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.SlimScroll" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.Sparkline" version="[1.0.0]" />
+            <dependency id="Template.AdminLTE.wysihtml5" version="[1.0.0]" />
+        </dependencies>
+    </metadata>
+</package>

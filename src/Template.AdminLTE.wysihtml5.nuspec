@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.wysihtml5</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            Plugin for Admin LTE template.
+
+            wysihtml5 is an open source rich text editor based on HTML5 technology and the progressive-enhancement approach.
+            It uses a sophisticated security concept and aims to generate fully valid HTML5 markup by preventing unmaintainable
+            tag soups and inline styles.
+        </description>
+        <summary>
+            Plugin for Admin LTE template.
+
+            wysihtml5 is an open source rich text editor based on HTML5 technology and the progressive-enhancement approach.
+        </summary>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\plugins\bootstrap-wysihtml5\*.js" target="content\Scripts\vendor\bootstrap-wysihtml5" />
+    </files>
+</package>

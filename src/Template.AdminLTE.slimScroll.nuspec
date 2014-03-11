@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.SlimScroll</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            Plugin for Admin LTE template.
+
+            slimScroll is a small (4.6KB) jQuery plugin that transforms any div into a scrollable area with
+            a nice scrollbar - similar to the one Facebook and Google started using in their products recently.
+            slimScroll doesn't occupy any visual space as it only appears on a user initiated mouse-over. User
+            can drag the scrollbar or use mouse-wheel to change the scroll value.
+        </description>
+        <summary>
+            Plugin for Admin LTE template.
+
+            slimScroll is a small (4.6KB) jQuery plugin that transforms any div into a scrollable area with
+            a nice scrollbar.
+        </summary>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\plugins\slimScroll\*.js" target="content\Scripts\vendor\slimScroll" />
+    </files>
+</package>

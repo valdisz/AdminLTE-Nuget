@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.FullCalendar</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            Plugin for Admin LTE template.
+
+            FullCalendar is a jQuery plugin that provides a full-sized, drag'n'drop calendar like the one below.
+            It uses AJAX to fetch events on-the-fly for each month and is easily configured to use your own feed
+            format (an extension is provided for Google Calendar)
+        </description>
+        <summary>
+            Plugin for Admin LTE template.
+
+            FullCalendar is a jQuery plugin that provides a full-sized, drag'n'drop calendar like the one below.
+        </summary>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\plugins\fullcalendar\*.js" target="content\Scripts\vendor\fullcalendar" />
+    </files>
+</package>

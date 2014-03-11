@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Template.AdminLTE.iCheck</id>
+        <version>1.0.0</version>
+        <authors>Almsaeed Studio</authors>
+        <owners>Valdis Zobēla</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            Plugin for Admin LTE template.
+
+            Highly customizable checkboxes and radio buttons for jQuery and Zepto.
+        </description>
+        <dependencies>
+            <dependency id="Template.AdminLTE" version="[1.0.0]" />
+            <dependency id="icheck.TypeScript.DefinitelyTyped" version="0.0.7" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\plugins\iCheck\*.js" target="content\Scripts\vendor\iCheck" />
+        <file src="less\iCheck.less" target="content\Content\AdminLTE" />
+    </files>
+</package>
